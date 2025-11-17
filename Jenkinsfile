@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'test jenkins file !'
+                echo 'test jenkins file ! triggered from webhook'
             }
         }
         // stage('Build') {
