@@ -6,10 +6,10 @@ pipeline {
                 echo 'test jenkins file !'
             }
         }
-        stage('Build') {
-            steps {
-                sh 'mvn clean install'
-            }
-        }
+        // stage('Build') {
+        //     steps {
+        //         sh 'mvn clean install'
+        //     }
+        // }
     }
 }
